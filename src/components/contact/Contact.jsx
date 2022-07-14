@@ -33,7 +33,7 @@ function Contact() {
             <HiOutlineMail className="contact__options-icon" />
             <h4>Email</h4>
             <h5>abhishek9502as@gmail.com</h5>
-            <a href="mailto:abhishek9502as@gmail.com" target="_blank">
+            <a href="mailto:abhishek9502as@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -41,7 +41,7 @@ function Contact() {
             <AiOutlineLinkedin className="contact__options-icon" />
             <h4>LinkedIn</h4>
             <h5>Abhishek Singh</h5>
-            <a href="https://Linkedin.com" target="_blank">
+            <a href="https://Linkedin.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -49,7 +49,7 @@ function Contact() {
             <ImWhatsapp className="contact__options-icon" />
             <h4>WhatsApp</h4>
             <h5>+91 8796426714</h5>
-            <a href="https://api.whatsapp.com/send?phone=918796426714" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=918796426714" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>

@@ -1,11 +1,11 @@
-import React from 'react'
-import "./Portfolio.css"
-import IMG1 from "../../assets/portfolio1.jpg"
-import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
-import IMG4 from "../../assets/portfolio4.jpg"
-import IMG5 from "../../assets/portfolio5.png"
-import IMG6 from "../../assets/portfolio6.jpg"
+import React from "react";
+import "./Portfolio.css";
+import IMG1 from "../../assets/portfolio1.jpg";
+import IMG2 from "../../assets/portfolio2.jpg";
+import IMG3 from "../../assets/portfolio3.jpg";
+import IMG4 from "../../assets/portfolio4.jpg";
+import IMG5 from "../../assets/portfolio5.png";
+import IMG6 from "../../assets/portfolio6.jpg";
 
 function Portfolio() {
   return (
@@ -20,12 +20,12 @@ function Portfolio() {
           </div>
           <h3>Portfolio Title</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
+              Github
+            </a>
+            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
+              Live Demo
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -34,12 +34,12 @@ function Portfolio() {
           </div>
           <h3>Portfolio Title</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
+              Github
+            </a>
+            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
+              Live Demo
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -48,12 +48,12 @@ function Portfolio() {
           </div>
           <h3>Portfolio Title</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
+              Github
+            </a>
+            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
+              Live Demo
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -62,12 +62,12 @@ function Portfolio() {
           </div>
           <h3>Portfolio Title</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
+              Github
+            </a>
+            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
+              Live Demo
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -76,12 +76,12 @@ function Portfolio() {
           </div>
           <h3>Portfolio Title</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
+              Github
+            </a>
+            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
+              Live Demo
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -90,12 +90,12 @@ function Portfolio() {
           </div>
           <h3>Portfolio Title</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="https://github.com" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
+              Github
+            </a>
+            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
+              Live Demo
+            </a>
           </div>
         </article>
       </div>
@@ -103,4 +103,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio
+export default Portfolio;
