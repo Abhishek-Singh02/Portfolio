@@ -41,7 +41,7 @@ function Contact() {
             <AiOutlineLinkedin className="contact__options-icon" />
             <h4>LinkedIn</h4>
             <h5>Abhishek Singh</h5>
-            <a href="https://Linkedin.com" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/abhishek-singh-9502as/" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>

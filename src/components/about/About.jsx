@@ -1,7 +1,7 @@
-import React from 'react'
-import "./About.css"
-import ME from "../../assets/me-about.jpg"
-import {FaAward} from "react-icons/fa"
+import React from "react";
+import "./About.css";
+import ME from "../../assets/me-about.png";
+import { FaAward } from "react-icons/fa";
 import { CgWorkAlt } from "react-icons/cg";
 import { AiOutlineProject } from "react-icons/ai";
 
@@ -27,22 +27,23 @@ function About() {
             <article className="about__card">
               <CgWorkAlt className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years</small>
+              <small>1.4 Years</small>
             </article>
 
             <article className="about__card">
               <AiOutlineProject className="about__icon" />
               <h5>Projects </h5>
-              <small>3 Completed</small>
+              <small>3 </small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corporis. Voluptate quasi aspernatur dolorem voluptas alias, tenetur sequi, velit libero enim in pariatur autem natus eius consequuntur vero, dicta itaque?
-          </p>
-          <a href="#Contact" className='btn btn-primary'>Let's Talk</a>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corporis. Voluptate quasi aspernatur dolorem voluptas alias, tenetur sequi, velit libero enim in pariatur autem natus eius consequuntur vero, dicta itaque?</p>
+          <a href="#Contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
   );
 }
 
-export default About
+export default About;

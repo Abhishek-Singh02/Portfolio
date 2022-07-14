@@ -13,7 +13,7 @@ function HeaderSocials() {
         <FaGithub />
       </a>
       <a href="https://www.instagram.com/_itz_me_abhishek/" target="_blank" rel="noreferrer">
-        <SiInstagram />{" "}
+        <SiInstagram />
       </a>
     </div>
   );
