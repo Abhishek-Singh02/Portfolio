@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import ME from "../../assets/me-about.png";
+import ME from "../../assets/about-me.webp";
 import { FaAward } from "react-icons/fa";
 import { CgWorkAlt } from "react-icons/cg";
 import { AiOutlineProject } from "react-icons/ai";
@@ -21,7 +21,7 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Qualification</h5>
-              <small>{`B.Sc (Comp. Sci)`}</small>
+              <small>{`B.Sc (CS)`}</small>
             </article>
 
             <article className="about__card">
@@ -36,7 +36,7 @@ function About() {
               <small>3 </small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corporis. Voluptate quasi aspernatur dolorem voluptas alias, tenetur sequi, velit libero enim in pariatur autem natus eius consequuntur vero, dicta itaque?</p>
+          <p>Hi! I am Abhishek Singh, a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself in love with web design / development. I enjoy creating beautifully designed, intuitive and functional websites.</p>
           <a href="#Contact" className="btn btn-primary">
             Let's Talk
           </a>

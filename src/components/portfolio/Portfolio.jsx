@@ -3,9 +3,6 @@ import "./Portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
 
 function Portfolio() {
   return (
@@ -18,12 +15,12 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>Portfolio Title</h3>
+          <h3>WeatherLens</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Abhishek-Singh02/weather-lens" className="btn" target="_blank" rel="noreferrer">
               Github
             </a>
-            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
+            <a href="https://try-weather-lens.vercel.app/" className="btn btn-primary" target="_blank" rel="noreferrer">
               Live Demo
             </a>
           </div>
@@ -32,9 +29,9 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>Portfolio Title</h3>
+          <h3>DSA Visualizer</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Mr-Hypocrite/DSA_Visualizer" className="btn" target="_blank" rel="noreferrer">
               Github
             </a>
             <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
@@ -46,49 +43,7 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>Portfolio Title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
-              Github
-            </a>
-            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>Portfolio Title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
-              Github
-            </a>
-            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>Portfolio Title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
-              Github
-            </a>
-            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
-          </div>
-          <h3>Portfolio Title</h3>
+          <h3>Expense Tracker</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
               Github

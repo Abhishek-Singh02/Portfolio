@@ -1,6 +1,6 @@
-import React from 'react'
-import "./Experience.css"
-import {BsFillPatchCheckFill} from "react-icons/bs"
+import React from "react";
+import "./Experience.css";
+import { BsFillPatchCheckFill } from "react-icons/bs";
 
 function Experience() {
   return (
@@ -30,14 +30,14 @@ function Experience() {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>SASS</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experince__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experince__details">
@@ -51,7 +51,7 @@ function Experience() {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React Js</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
@@ -63,28 +63,38 @@ function Experience() {
           <div className="experience__content">
             <article className="experince__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <div><h4>Node Js</h4>
-              <small className="text-light">Experienced</small></div>
+              <div>
+                <h4>Node Js</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experince__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <div><h4>Express Js</h4>
-              <small className="text-light">Experienced</small></div>
+              <div>
+                <h4>Express Js</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experince__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <div><h4>MongoDB</h4>
-              <small className="text-light">Experienced</small></div>
+              <div>
+                <h4>MongoDB</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experince__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <div><h4>PostgresQL</h4>
-              <small className="text-light">Experienced</small></div>
+              <div>
+                <h4>PostgresQL</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experince__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <div><h4>PHP</h4>
-              <small className="text-light">Experienced</small></div>
+              <div>
+                <h4>PHP</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
           </div>
         </div>
@@ -93,4 +103,4 @@ function Experience() {
   );
 }
 
-export default Experience
+export default Experience;
