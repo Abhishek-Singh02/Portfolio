@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./Contact.css";
 import { HiOutlineMail } from "react-icons/hi";
-import { AiOutlineLinkedin } from "react-icons/ai";
+import { BsLinkedin } from "react-icons/bs";
 import { ImWhatsapp } from "react-icons/im";
 import emailjs from "@emailjs/browser";
 
@@ -38,7 +38,7 @@ function Contact() {
             </a>
           </article>
           <article className="contact__option">
-            <AiOutlineLinkedin className="contact__options-icon" />
+            <BsLinkedin className="contact__options-icon" />
             <h4>LinkedIn</h4>
             <h5>Abhishek Singh</h5>
             <a href="https://www.linkedin.com/in/abhishek-singh-9502as/" target="_blank" rel="noreferrer">

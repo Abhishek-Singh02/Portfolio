@@ -36,7 +36,9 @@ function About() {
               <small>3 </small>
             </article>
           </div>
-          <p>Hi! I am Abhishek Singh, a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself in love with web design / development. I enjoy creating beautifully designed, intuitive and functional websites.</p>
+          <p>
+            Hi !<br /> I am Abhishek Singh, a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself in love with web design / development. I enjoy creating beautifully designed, intuitive and functional websites.
+          </p>
           <a href="#Contact" className="btn btn-primary">
             Let's Talk
           </a>

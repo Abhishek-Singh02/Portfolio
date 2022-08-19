@@ -34,6 +34,8 @@ nav a.active {
 
 @media screen and (max-width: 400px) {
   nav {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.75rem;
+    transform: scale(0.95);
+    transform-origin: -950%;
   }
 }

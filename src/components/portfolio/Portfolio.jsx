@@ -34,7 +34,7 @@ function Portfolio() {
             <a href="https://github.com/Mr-Hypocrite/DSA_Visualizer" className="btn" target="_blank" rel="noreferrer">
               Github
             </a>
-            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
+            <a href="https://dsa-visualiser.herokuapp.com" className="btn btn-primary" target="_blank" rel="noreferrer">
               Live Demo
             </a>
           </div>
@@ -45,10 +45,10 @@ function Portfolio() {
           </div>
           <h3>Expense Tracker</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Abhishek-Singh02/expense-tracker" className="btn" target="_blank" rel="noreferrer">
               Github
             </a>
-            <a href="https://github.com" className="btn btn-primary" target="_blank" rel="noreferrer">
+            <a href="https://try-expense-tracker.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">
               Live Demo
             </a>
           </div>
