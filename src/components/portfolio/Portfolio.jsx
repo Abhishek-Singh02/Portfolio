@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
+import IMG4 from "../../assets/portfolio4.jpg";
 
 function Portfolio() {
   return (
@@ -49,6 +50,20 @@ function Portfolio() {
               Github
             </a>
             <a href="https://try-expense-tracker.vercel.app" className="btn btn-primary" target="_blank" rel="noreferrer">
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Insiight : A financial game</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Abhishek-Singh02/expense-tracker" className="btn-disable" target="_blank" rel="noreferrer">
+              Github
+            </a>
+            <a href="https://game.iinsiight.com" className="btn btn-primary" target="_blank" rel="noreferrer">
               Live Demo
             </a>
           </div>
